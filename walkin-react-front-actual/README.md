@@ -1,28 +1,62 @@
-# Walk-In-Events
-
-Full-stack solution, where react-build is included in node-backend and published to heroku using script in node-project's package.json
 
 
-## Developing React app in localhost
 
-Open folder walkin-react-front and start with "npm run dev". It will run server in background, and react app is running at localhost:3000
-
-
-## Testing React app with node-backend
-
-Open folder walkin-node-backend, run "npm install" and start with "npm run build:ui". It will build react app from folder walkin-event-front and add the build to node app folder. After that run "npm start", that will start the server and serve react front at localhost:3001
+# WalkIn-Events
 
 
-## Deployment of full-stack solution to Heroku
+> explore the events near you
 
-From walkin-node-backend run "npm run deploy" or "npm run deploy:full" in case there is recent react build to include // script needs fix
 
-### Manual deployment from root folder of fullstack branch
 
+## description
+
+
+joka on tiivis, informatiivinen ja jossa kerrotaan projektin perusidea sekä tärkeys menemällä suoraan asian ytimeen
+
+
+
+### table of contents
+
+
+1. tarvitaanko
+2. me
+3. tätä?
+
+
+
+## getting started
+
+
+just follow these simple steps to run our project!
+
+
+
+### prerequisities
+
+
+
+Be sure you are running node and npm on your computer.
+
+Open command-line tool, f.e. powershell and type `node -v`
+and then `npm -v`
+
+> the output should be something like this
+
+tähän_tulee_kuva_powershellistä.png
+
+> if not
+
+just follow [these steps](https://treehouse.github.io/installation-guides/windows/node-windows.html) and then come back!
+
+
+
+### installation
+
+
+> first you have to clone this repo to your local machine
 ```
-heroku login
-heroku git:remote -a walk-in-events
-git subtree push --prefix walkin-node-backend heroku master
+$ git clone https://github.com/Kapyjengi/WalkInEvents.git
+
 ```
 
 > and then you have to install the npm packages
